@@ -402,8 +402,8 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         // TODO 添加反馈
         if (mode === MODE_ENDLESS) return '';
         if (score <= 49) return '你不是胡椒粉的對手';
-        if (score <= 99) return '也就還好吧才超過99';
-        if (score <= 149) return '150罷了';
+        if (score <= 99) return '也就還好吧都沒有99';
+        if (score <= 149) return '你這不行啊';
         if (score <= 199) return '絕對是外挂';
         return '人？';
     }
